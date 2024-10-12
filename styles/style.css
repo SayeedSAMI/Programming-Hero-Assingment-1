@@ -214,7 +214,6 @@ body {
 .current-target-container {
   display: flex;
   align-items: center;
-  
 }
 .target-subjects-1 {
   /* display: flex; */
@@ -247,21 +246,73 @@ body {
   background: rgba(255, 223, 0, 0.05);
 }
 .subject-title {
-  color: #0D1321;
-font-size: 24px;
-font-weight: 800;
-line-height: 36px; 
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
 }
 .subject-description {
-  color: #0D1321;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; 
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
-.suject-a{
-  color: #0D1321;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-text-decoration-line: underline;
+.suject-a {
+  color: #0d1321;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+/*=========Ineed support section styles=========== */
+
+.support {
+  background-image: url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1044px;
+  height: 185px;
+  margin: 49px 300px 80px 350px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  width: 1140px;
+  padding: 64px 48px;
+  gap: 32px;
+}
+.support-title {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.support-des {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.support-inside-div {
+  display: flex;
+}
+.support-btn {
+  width: 120px;
+  padding: 17px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fff;
+}
+.support-inputfield {
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  width: 548px;
+  padding: 19px 20px;
+  align-items: center;
+  gap: 10px;
 }
